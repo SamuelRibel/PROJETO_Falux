@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falux Iluminação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ficha de orçamento</h1>
+    <h3>Solicite seu orçamento por aqui</h3>
+    <form method="post" action="">
+    <fieldset>
+            <label  for="name">NOME: <input id="name" type="text" required></label>
+            <label  for="email">EMAIL: <input id="email" type="email" required></label>
+            <label  for="number">TELEFONE: <input id="number" type="number"required></label>
+    </fieldset>
+    <fieldset>
+            <label for="Residelcial">RESIDENCIAL <input type="radio" name="01" class="inline"></label>
+            <label for="comercial">COMERCIAL <input type="radio" name="01" class="inline"></label>
+            <label for="">OUTRO <input type="radio" name="01" class="inline"></label>
+    </fieldset>
+    <fieldset>
+        <label for="">Enviar lista de material: <input type="file" name="material por lista"></label>
+        <label for="">Enviar projeto: <input type="file" name="material por projeto"></label>
+        <label for="">Descrever material: </label>    
+        <textarea name="" id="" cols="50" rows="7" placeholder="Ex: 1 painel de led 24W, 3 lâmpadas bulbo, fita de led para fachada..."></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar">
+</form>
+</html>
